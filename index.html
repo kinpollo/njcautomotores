@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>NJC Automotores</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <!-- External CSS libraries -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-submenu.css">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/leaflet.css" type="text/css">
+    <link rel="stylesheet" href="css/map.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="fonts/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="fonts/linearicons/style.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" type="text/css" href="css/dropzone.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jnoty.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/initial.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" id="style_sheet" href="css/skins/midnight-blue.css">
+
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- Google fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=OSans:400,300,600,700,800%7CPlayfair+Display:400,700%7CRoboto:100,300,400,400i,500,700">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,300,700">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link rel="stylesheet" type="text/css" href="css/ie10-viewport-bug-workaround.css">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script  src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script  src="js/html5shiv.min.js"></script>
+    <script  src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="page_loader"></div>
+
+    <!-- Top header 3 start -->
+    <div class="top-header-3 d-none d-lg-block" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2">
+                    <div class="top-logo">
+                        <a href="index.html"><img src="img/logos/logo.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-10">
+                    <div class="top-header-inner">
+                        <div class="top-contact-item">
+                            <i class="bi bi-geo-alt"></i>
+                            <div class="content">
+                                <p>Ubicación</p>
+                                <a>Antonio Sastre 43, Llavallol</a>
+                            </div>
+                        </div>
+                        <div class="top-contact-item">
+                            <i class="bi bi-envelope-open"></i>
+                            <div class="content">
+                                <p>Soporte</p>
+                                <a href="mailto:automotores.njc@gmail.com">automotores.njc@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="top-contact-item tci2">
+                            <i class="bi bi-telephone-inbound"></i>
+                            <div class="content">
+                                <p>Contacto</p>
+                                <a href="https://wa.me/+541134137878" target="_blank">+54 1134137878 / </a>
+                                <a href="https://wa.me/+541160198318" target="_blank"> 1160198318</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top header 3 end -->
+
+    <!-- Main header start -->
+    <header class="main-header sticky-header main-header-5" id="main-header-5">
+        <div class="container">
+            <div class="header-inner">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand logos mr-auto" href="index.html">
+                        <img src="img/logos/NJC automotores LOGO-3 png.png" alt="logo" class="logo-photo">
+                    </a>
+                    <button class="navbar-toggler" id="drawer" type="button">
+                    <span class="fa fa-bars"></span>
+                </button>
+                    <div class="navbar-collapse collapse w-100" id="navbar">
+                        <ul class="navbar-nav w-100 justify-content-start">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#home" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Home
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href=#autos-disponibles id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Vehiculos
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href=#nuestros-agentes id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Nuestra historia
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="contact.html">Contactanos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Main header end -->
+
+    <!-- Sidenav start -->
+    <nav id="sidebar" class="nav-sidebar">
+        <!-- Close btn-->
+        <div id="dismiss">
+            <i class="fa fa-close"></i>
+        </div>
+        <div class="sidebar-inner">
+            <div class="sidebar-logo">
+                <img src="img/logos/black-logo.png" alt="sidebarlogo">
+            </div>
+            <div class="sidebar-navigation">
+                <h3 class="heading">Paginas</h3>
+                <ul class="menu-list">
+                    <li><a href="index.html" class="active pt0">Home <em class="fa"></em></a>
+                    </li>
+                    <li><a href="#autos-disponibles" class="active pt0">Autos disponibles <em class="fa"></em></a>
+                    </li>
+                    <li><a href="about.html" class="active pt0">Sobre nosotros <em class="fa"></em></a>
+                    </li>
+                    <li><a href="contact.html" class="active pt0">Contacto <em class="fa"></em></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="get-in-touch">
+                <h3 class="heading">Escribenos</h3>
+                <div class="get-in-touch-box d-flex">
+                    <i class="flaticon-phone"></i>
+                    <div class="detail">
+                        <a href="https://wa.me/+541134137878" target="_blank">+54 1134137878 / </a>
+                        <a href="https://wa.me/+541160198318" target="_blank"> 1160198318</a>
+                    </div>
+                </div>
+                <div class="get-in-touch-box d-flex">
+                    <i class="flaticon-mail"></i>
+                    <div class="detail">
+                        <a href="mailto:automotores.njc@gmail.com">automotores.njc@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="get-social">
+                <h3 class="heading">RRSS</h3>
+                <a href="https://www.instagram.com/njcautomotores/" target="_blank" class="instagram-bg">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/Njc.automotores" target="_blank" class="instagram-bg">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCKINNgt5VusmK37YzPiVEgQ" target="_blank" class="instagram-bg">
+                    <i class="fa fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Sidenav end -->
+
+    <!-- Banner start -->
+    <div class="banner" id="banner5">
+        <div id="bannerCarousole" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner banner-slider-inner">
+                <div class="carousel-item banner-max-height active">
+                    <div style="height: auto;">
+                        <img style="height: 100%; width: 100%;" class="d-block" src="img/banner/portada youtube.png" alt="banner">
+                    </div>
+                    <div class="carousel-content container banner-info-2 bi-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner end -->
+
+    <!-- Featured car start -->
+    <div class="featured-car content-area-18">
+        <div id="autos-disponibles" class="container">
+            <!-- Main title 3 -->
+            <div class="main-title-3">
+                <p>Vehiculos disponibles</p>
+                <h1>Conoce nuestras <span>nuevas adquisiciones</span></h1>
+            </div>
+            <!-- Slick slider area start -->
+            <div class="slick-slider-area clearfix">
+                <div class="row slick-carousel" data-slick='{"slidesToShow": 3, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": 2}}, {"breakpoint": 768,"settings":{"slidesToShow": 1}}]}'>
+                    
+                    
+                    <div class="slick-slide-item">
+                        <div class="car-box-4">
+                            <div class="photo-overflow">
+                                <div class="car-thumbnail-photo">
+                                    <img class="img-fluid w-100 cartas-autos-index" src="https://i.ibb.co/CzQgpQj/001-min.jpg"  alt="photo">
+                                </div>
+                            </div>
+                            <div class="for">Venta</div>
+                            <div class="ling-section">
+                                <div class="lo-text clearfix">
+                                    <h3>
+                                        <a href="car-details-Gol-Trend-Negro.html">Gol Trend Negro</a>
+                                    </h3>
+                                    <ul class="facilities-list clearfix">
+                                        <li>
+                                            <i class="flaticon-way"></i> 131,500 km
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-manual-transmission"></i> Caja manual
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-calendar-1"></i> 2013
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-fuel"></i> NAFTA
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-gear"></i> Negro
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="slick-slide-item">
+                        <div class="car-box-4">
+                            <div class="photo-overflow">
+                                <div class="car-thumbnail-photo">
+                                    <img class="img-fluid w-100 cartas-autos-index" src="https://i.ibb.co/g6bj5rP/IMG-20220908-173607-min.jpg" alt="photo">
+                                </div>
+                            </div>
+                            <div class="for">Venta</div>
+                            <div class="ling-section">
+                                <div class="lo-text clearfix">
+                                    <h3>
+                                        <a href="car-details-Corsa-Gris.html">Corsa Gris</a>
+                                    </h3>
+                                    <ul class="facilities-list clearfix">
+                                        <li>
+                                            <i class="flaticon-way"></i> 179,000 km
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-manual-transmission"></i> Caja manual
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-calendar-1"></i> 2008
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-fuel"></i> NAFTA
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-gear"></i> Gris
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-slide-item">
+                        <div class="car-box-4">
+                            <div class="photo-overflow">
+                                <div class="car-thumbnail-photo">
+                                    <img class="img-fluid w-100 cartas-autos-index" src="https://i.ibb.co/hF7nXpN/003-min.jpg"  alt="photo">
+                                </div>
+                            </div>
+                            <div class="for">Venta</div>
+                            <div class="ling-section">
+                                <div class="lo-text clearfix">
+                                    <h3>
+                                        <a href="car-details-Ford-Focus.html">FORD FOCUS</a>
+                                    </h3>
+                                    <ul class="facilities-list clearfix">
+                                        <li>
+                                            <i class="flaticon-way"></i> 79,500 km
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-manual-transmission"></i> Caja manual
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-calendar-1"></i> 2017
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-fuel"></i> NAFTA
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-gear"></i> AZUL
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-slide-item">
+                        <div class="car-box-4">
+                            <div class="photo-overflow">
+                                <div class="car-thumbnail-photo">
+                                    <img class="img-fluid w-100 cartas-autos-index" src="https://i.ibb.co/TkHnFDJ/IMG-20220919-151851-min.jpg" alt="photo">
+                                </div>
+                            </div>
+                            <div class="for">Venta</div>
+                            <div class="ling-section">
+                                <div class="lo-text clearfix">
+                                    <h3>
+                                        <a href="car-details-Chevrolet-Prisma.html">Chevrolet Prisma Joy ls +</a>
+                                    </h3>
+                                    <ul class="facilities-list clearfix">
+                                        <li>
+                                            <i class="flaticon-way"></i> 120,000 km
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-manual-transmission"></i> Caja manual
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-calendar-1"></i> 2017
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-fuel"></i> NAFTA
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-gear"></i> GRIS
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-slide-item">
+                        <div class="car-box-4">
+                            <div class="photo-overflow">
+                                <div class="car-thumbnail-photo">
+                                    <img class="img-fluid w-100 cartas-autos-index" src="https://i.ibb.co/Z1nW8CC/IMG-20220811-WA0062-min.jpg" alt="photo">
+                                </div>
+                            </div>
+                            <div class="for">Venta</div>
+                            <div class="ling-section">
+                                <div class="lo-text clearfix">
+                                    <h3>
+                                        <a href="car-details-Audi-A5.html">AUDI A5 COUPE FSI</a>
+                                    </h3>
+                                    <ul class="facilities-list clearfix">
+                                        <li>
+                                            <i class="flaticon-way"></i> 78,500 km
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-manual-transmission"></i> Caja Automatico
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-calendar-1"></i> 2011
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-fuel"></i> NAFTA
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-gear"></i> BLANCO
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-slide-item">
+                        <div class="car-box-4">
+                            <div class="photo-overflow">
+                                <div class="car-thumbnail-photo">
+                                    <img class="img-fluid w-100 cartas-autos-index" src="https://i.ibb.co/hgFPHL6/IMG-20220914-WA0073-min.jpg" alt="photo">
+                                </div>
+                            </div>
+                            <div class="for">Venta</div>
+                            <div class="ling-section">
+                                <div class="lo-text clearfix">
+                                    <h3>
+                                        <a href="car-details-Siena.html">Siena EL pack Attractive</a>
+                                    </h3>
+                                    <ul class="facilities-list clearfix">
+                                        <li>
+                                            <i class="flaticon-way"></i> 142,000 km
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-manual-transmission"></i> Caja manual
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-calendar-1"></i> 2013
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-fuel"></i> NAFTA
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-gear"></i> Gris
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="slick-slide-item">
+                        <div class="car-box-4">
+                            <div class="photo-overflow">
+                                <div class="car-thumbnail-photo">
+                                    <img class="img-fluid w-100 cartas-autos-index" src="https://i.ibb.co/HNTMXDj/IMG-20221011-174836-min.jpg" alt="photo">
+                                </div>
+                            </div>
+                            <div class="for">Venta</div>
+                            <div class="ling-section">
+                                <div class="lo-text clearfix">
+                                    <h3>
+                                        <a href="car-details-corsa-classic-blanco.html">Corsa Classic Spirit</a>
+                                    </h3>
+                                    <ul class="facilities-list clearfix">
+                                        <li>
+                                            <i class="flaticon-way"></i> 90,000 km
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-manual-transmission"></i> Caja Manual
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-calendar-1"></i> 2012
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-fuel"></i> NAFTA
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-gear"></i> BLANCO
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-slide-item">
+                        <div class="car-box-4">
+                            <div class="photo-overflow">
+                                <div class="car-thumbnail-photo">
+                                    <img class="img-fluid w-100 cartas-autos-index" src="https://i.ibb.co/r76k4R9/IMG-20221022-170944-min.jpg" alt="photo">
+                                </div>
+                            </div>
+                            <div class="for">Venta</div>
+                            <div class="ling-section">
+                                <div class="lo-text clearfix">
+                                    <h3>
+                                        <a href="car-details-Prisma2.html">CHEVROLET PRISMA JOY LS</a>
+                                    </h3>
+                                    <ul class="facilities-list clearfix">
+                                        <li>
+                                            <i class="flaticon-way"></i> 80,200 km
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-manual-transmission"></i> Caja Manual
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-calendar-1"></i> 2018
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-fuel"></i> NAFTA
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-gear"></i> GRIS
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-slide-item">
+                        <div class="car-box-4">
+                            <div class="photo-overflow">
+                                <div class="car-thumbnail-photo">
+                                    <img class="img-fluid w-100 cartas-autos-index" src="https://i.ibb.co/qxb21Jd/001-min-1.jpg"  alt="photo">
+                                </div>
+                            </div>
+                            <div class="for">Venta</div>
+                            <div class="ling-section">
+                                <div class="lo-text clearfix">
+                                    <h3>
+                                        <a href="car-details-Isuzu-Rodeo.html">Isuzu Rodeo 4x4</a>
+                                    </h3>
+                                    <ul class="facilities-list clearfix">
+                                        <li>
+                                            <i class="flaticon-way"></i> 240,000 km
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-manual-transmission"></i> Caja Automatico
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-calendar-1"></i> 2000
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-fuel"></i> NAFTA
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-gear"></i> Negro
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-slide-item">
+                        <div class="car-box-4">
+                            <div class="photo-overflow">
+                                <div class="car-thumbnail-photo">
+                                    <img class="img-fluid w-100 cartas-autos-index" src="https://i.ibb.co/QQCms4G/IMG-20220929-191000-min.jpg" alt="photo">
+                                </div>
+                            </div>
+                            <div class="for">Venta</div>
+                            <div class="ling-section">
+                                <div class="lo-text clearfix">
+                                    <h3>
+                                        <a href="car-details-BMW-Z4.html">BMW Z4 3.0I Americano</a>
+                                    </h3>
+                                    <ul class="facilities-list clearfix">
+                                        <li>
+                                            <i class="flaticon-way"></i> 71,000 km
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-manual-transmission"></i> Caja Automatica
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-calendar-1"></i> 2004
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-fuel"></i> NAFTA
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-gear"></i> Negro
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="slick-slide-item">
+                        <div class="car-box-4">
+                            <div class="photo-overflow">
+                                <div class="car-thumbnail-photo">
+                                    <img class="img-fluid w-100 cartas-autos-index" src="https://i.ibb.co/HH4byyt/IMG-20220905-WA0070-min.jpg" alt="photo">
+                                </div>
+                            </div>
+                            <div class="for">Venta</div>
+                            <div class="ling-section">
+                                <div class="lo-text clearfix">
+                                    <h3>
+                                        <a href="car-details-Gol-Trend-Rojo.html">Gol Trend Rojo</a>
+                                    </h3>
+                                    <ul class="facilities-list clearfix">
+                                        <li>
+                                            <i class="flaticon-way"></i> 121,733 km
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-manual-transmission"></i> Caja manual
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-calendar-1"></i> 2014
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-fuel"></i> NAFTA
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-gear"></i> Rojo
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="slick-prev slick-arrow-buton">
+                    <i class="fa fa-angle-left"></i>
+                </div>
+                <div class="slick-next slick-arrow-buton">
+                    <i class="fa fa-angle-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Featured car end -->
+
+    <!-- Our team start -->
+    <div id="nuestros-agentes" class="our-team content-area comon-slick bg-grea-3">
+        <div id="agentes" class="container">
+            <!-- Main title -->
+            <div class="main-title-3">
+                <p>Agentes ejecutivos</p>
+                <h1>Nuestros <span>Agentes</span></h1>
+            </div>
+            <!-- Slick slider area start -->
+            <div class="slick row comon-slick-inner" data-slick='{"slidesToShow": 2, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": 2}}, {"breakpoint": 768,"settings":{"slidesToShow": 1}}]}'>
+                <div class="item slide-box">
+                    <div class="row team-2 g-0">
+                        <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                            <div class="team-thumb">                                
+                                    <img src="img/nuestra-historia/Jorge.jpg" alt="team-2" class="img-fluid w-100">                                                               
+                            </div>
+                        </div>
+                        <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 align-self-center">
+                            <div class="team-info">
+                                <h4>Jorge Rubén Castearena</h4>
+                                <h5>Gerente comercial</h5>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item slide-box">
+                    <div class="row team-2 g-0">
+                        <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                            <div class="team-thumb">                                
+                                    <img src="img/nuestra-historia/Nico.jpg" alt="team-1" class="img-fluid w-100">                                                                
+                            </div>
+                        </div>
+                        <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 align-self-center">
+                            <div class="team-info">
+                                <h4>Nicolás Castearena</h4>
+                                <h5>Gerente comercial</h5>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>                            
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12 text-center">
+        <a href="about.html" class="btn-6">Nuestra historia</a>
+    </div>
+    <!-- Our team end -->
+
+    <!-- Partners strat -->
+    <div class="partners mt-5">
+        <div class="container">
+            <div class="slick-slider-area">
+                <div class="row slick-carousel" data-slick='{"slidesToShow": 5, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": 3}}, {"breakpoint": 768,"settings":{"slidesToShow": 2}}]}'>
+                    <div class="slick-slide-item"><img height="50px" width="50px" src="img/logos/bmw-logo.png" alt="brand" class="img-fluid"></div>
+                    <div class="slick-slide-item"><img height="100px" width="100px" src="img/logos/fiat-logo.png" alt="brand" class="img-fluid"></div>
+                    <div class="slick-slide-item"><img height="100px" width="100px" src="img/logos/toyota-logo.png" alt="brand" class="img-fluid"></div>
+                    <div class="slick-slide-item"><img height="50px" width="50px" src="img/logos/vw-logo.png" alt="brand" class="img-fluid"></div>
+                    <div class="slick-slide-item"><img height="50px" width="50px" src="img/logos/renault-logo.png" alt="brand" class="img-fluid"></div>
+                    <div class="slick-slide-item"><img style="margin-top: 9px;" height="75px" width="75px" src="img/logos/Chevrolet-logo.png" alt="brand" class="img-fluid"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Partners end -->
+
+    <!-- Footer start -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-item clearfix">
+                        <h4>
+                            Contáctanos
+                        </h4>
+                        <ul class="contact-info">
+                            <li>
+                                <i class="flaticon-pin"></i>Antonio Sastre 43, Llavallol
+                            </li>                            
+                            <li>
+                                <i class="flaticon-phone"></i><a href="https://wa.me/+541134137878" target="_blank">+54 1134137878</a>                                                                
+                            </li>
+                            <li>                               
+                                <i class="flaticon-phone"></i><a href="https://wa.me/+541160198318" target="_blank">+54 1160198318</a>                                
+                            </li>                           
+                        </ul>
+                        <div class="clearfix"></div>                        
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-item">
+                        <h4>
+                            Links Útiles
+                        </h4>
+                        <ul class="links">
+                            <li>
+                                <a href="about.html">Nuestra historia</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contáctanos</a>
+                            </li>
+                            <li>
+                                <a href="gallery.html">Galería</a>
+                            </li>                    
+                        </ul>
+                    </div>
+                </div>                
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-item clearfix">
+                        <h4>Nuestras redes</h4>
+                        <div class="Subscribe-box">
+                                <ul>                                
+                                    <li><a href="https://www.facebook.com/Njc.automotores"><i class="fa fa-facebook p-2"></i>Facebook</a></li>                                
+                                    <li><a href="https://www.youtube.com/channel/UCKINNgt5VusmK37YzPiVEgQ"><i class="fa fa-youtube p-2"></i>Youtube</a></li>
+                                    <li><a href="https://www.instagram.com/njcautomotores/"><i class="fa fa-instagram p-2"></i>Instagram</a></li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-item clearfix">
+                        <h4>Contestamos en 24hs!</h4>
+                        <div class="Subscribe-box">
+                            <a href="mailto:automotores.njc@gmail.com">automotores.njc@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy sub-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>© 2022 NJC Automotores. Todos los derechos reservados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end --> 
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap-submenu.js"></script>
+    <script src="js/rangeslider.js"></script>
+    <script src="js/jquery.mb.YTPlayer.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.scrollUp.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/leaflet-providers.js"></script>
+    <script src="js/leaflet.markercluster.js"></script>
+    <script src="js/dropzone.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.filterizr.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.countdown.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+    <script src="js/lightgallery-all.js"></script>
+    <script src="js/jnoty.js"></script>
+    <script src="js/maps.js"></script>
+    <script src="js/sidebar.js"></script>
+    <script src="js/app.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <!-- Custom javascript -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+</body>
+
+</html>
