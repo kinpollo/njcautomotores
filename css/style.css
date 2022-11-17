@@ -2713,10 +2713,14 @@ input[type=checkbox]:checked+label:before {
 
 .slick-next {
     right: -15px;
+    color:white;
+    background: red;
 }
 
 .slick-prev {
     left: -15px;
+    color:white;
+    background: red;
 }
 
 .slick-slide,
